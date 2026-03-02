@@ -1,0 +1,31 @@
+server:
+  port: __PORT__
+  address: 0.0.0.0
+lavalink:
+  server:
+    password: __PASSWORD__
+    sources:
+      youtube: false
+      bandcamp: false
+      soundcloud: false
+      twitch: false
+      vimeo: false
+      http: false
+      local: false
+plugins:
+  - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:4.0.1"
+    repository: "https://maven.lavalink.dev/releases"
+pluginsConfig:
+  lavasrc:
+    providers:
+      - "ytsearch:\"%ISRC%\""
+      - "ytsearch:%QUERY%"
+    sources:
+      spotify: false
+      applemusic: false
+      deezer: true
+      yandexmusic: false
+      flowerytts: false
+      youtube: false
+    deezer:
+      masterDecryptionKey: "your master decryption key"

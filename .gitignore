@@ -1,0 +1,9 @@
+node_modules/
+dist/
+setupll.log
+*.log
+.DS_Store
+Thumbs.db
+application.yml
+docker-compose.yml
+Lavalink.jar

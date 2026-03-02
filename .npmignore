@@ -1,0 +1,8 @@
+src/
+build.js
+setupll.log
+*.log
+.gitignore
+.git/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,19 @@
+server:
+  port: __PORT__
+  address: 127.0.0.1
+lavalink:
+  server:
+    password: __PASSWORD__
+    sources:
+      youtube: true
+      bandcamp: false
+      soundcloud: false
+      twitch: false
+      vimeo: false
+      http: false
+      local: true
+    bufferDurationMs: 400
+    frameBufferDurationMs: 5000
+    useSeekGhosting: true
+    youtubeSearchEnabled: true
+    soundcloudSearchEnabled: false

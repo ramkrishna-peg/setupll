@@ -1,0 +1,18 @@
+server:
+  port: __PORT__
+  address: 0.0.0.0
+lavalink:
+  server:
+    password: __PASSWORD__
+    sources:
+      youtube: false
+      bandcamp: false
+      soundcloud: true
+      twitch: true
+      vimeo: false
+      http: true
+      local: true
+    bufferDurationMs: 1000
+    frameBufferDurationMs: 10000
+    opusEncodingQuality: 10
+    resamplingQuality: HIGH

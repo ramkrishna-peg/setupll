@@ -1,0 +1,14 @@
+server:
+  port: __PORT__
+  address: 0.0.0.0
+lavalink:
+  server:
+    password: __PASSWORD__
+    sources:
+      youtube: true
+      bandcamp: false
+      soundcloud: false
+      twitch: false
+      vimeo: false
+      http: false
+      local: false
